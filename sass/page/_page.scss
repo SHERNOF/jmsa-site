@@ -1,0 +1,42 @@
+nav {
+  border-bottom: 0.1px solid white;
+  .nav-wrapper {
+    .container {
+      ul {
+        li {
+          a {
+            font-size: 1.5rem;
+            color: red;
+            &:hover {
+              color: white;
+              background: red;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.slider {
+  .slides {
+    li {
+      .caption {
+        color: red;
+        h2 {
+          font-size: 6rem;
+        }
+
+        h5 {
+          font-size: 4rem;
+        }
+      }
+    }
+  }
+}
+
+.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 90% !important;
+}

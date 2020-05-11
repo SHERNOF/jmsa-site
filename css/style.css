@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: black; }
+
+html {
+  font-size: 62.5%; }
+
+nav {
+  border-bottom: 0.1px solid white; }
+  nav .nav-wrapper .container ul li a {
+    font-size: 1.5rem;
+    color: red; }
+    nav .nav-wrapper .container ul li a:hover {
+      color: white;
+      background: red; }
+
+.slider .slides li .caption {
+  color: red; }
+  .slider .slides li .caption h2 {
+    font-size: 6rem; }
+  .slider .slides li .caption h5 {
+    font-size: 4rem; }
+
+.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 90% !important; }
